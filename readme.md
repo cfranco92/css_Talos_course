@@ -7,3 +7,10 @@
 
 # Cascading style sheets & Specify
 ![Cascading style](readme_images/cascading_stylesheets.png)
+
+# Combinators
+![Combinators](readme_images/combinators1.png)
+![Combinators](readme_images/adjacent.png)
+![Combinators](readme_images/general.png)
+![Combinators](readme_images/child.png)
+![Combinators](readme_images/descendant.png)
