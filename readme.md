@@ -14,3 +14,7 @@
 ![Combinators](readme_images/general.png)
 ![Combinators](readme_images/child.png)
 ![Combinators](readme_images/descendant.png)
+
+# Selectors, properties, values
+![Selectors, properties, values](readme_images/selectorsDescription1.png)
+![Selectors, properties, values](readme_images/selectorsDescription2.png)
