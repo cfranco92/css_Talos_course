@@ -5,9 +5,11 @@
 
 ![Selectors 2](readme_images/selectors2.png)
 
+---
 ## Cascading style sheets & Specify
 ![Cascading style](readme_images/cascading_stylesheets.png)
 
+---
 ## Combinators
 ![Combinators](readme_images/combinators1.png)
 ![Combinators](readme_images/adjacent.png)
@@ -15,13 +17,16 @@
 ![Combinators](readme_images/child.png)
 ![Combinators](readme_images/descendant.png)
 
+---
 ## Selectors, properties, values
 ![Selectors, properties, values](readme_images/selectorsDescription1.png)
 ![Selectors, properties, values](readme_images/selectorsDescription2.png)
 
+---
 ## Box model / Layers
 ![Box model](readme_images/layers.png)
 
+---
 ## Margin Collapsing
 When working with margins, you can get unexpected results. 
 
@@ -54,9 +59,11 @@ Let's explore these cases:
 
     This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into one single margin. Again, the bigger one wins.
 
+---
 ## Shorthand properties
 ![Shorthand properties](readme_images/shorthandproperties.png)
 
+---
 ## Display none vs visibility hidden
 We had a look at display: none;  - this value removes the element to which you apply it from the document flow. This means that the element is not visible and it also doesn't "block its position". Other elements can (and will) take its place instead.
 
@@ -95,3 +102,25 @@ Will render:
 where _  simply is an empty spot and x  has the class box-2 .
 
 The element is only invisible, it's not removed from the document flow and of course also not from the DOM.
+
+---
+## HTML Refresher Block-Level vs inline elements
+It's not really a CSS topic, though it's related to it: The difference between block-level and inline elements.
+
+You can read a more detailed article (which also includes a YouTube video about HTML at the top of the page) here: https://academind.com/learn/html/beginner-s-guide/diving-deeper-into-html#block-level-vs-inline-elements
+
+Here's the executive summary:
+
+Block-level elements are rendered as a block and hence take up all the available horizontal space. You can set margin-top and margin-bottom and two block-level elements will render in two different lines.
+
+Some examples are: <div> , <section> , <article> , <nav>  but also <h1> , <h2>  etc and <p> .
+
+Inline elements on the other hand only take up the space they require to fit their content in. Hence two inline-elements will fit into the same line (as long as the combined content doesn't take up the entire space in which case a line break would be added).
+
+They also use the box-model you learned about but margin-top  and margin-bottom  have no effect on the element. padding-top  and padding-bottom  also have a different effect. They don't push the adjacent content away but they will do so with the element border. You can read more about that behavior in the following article: https://hacks.mozilla.org/2015/03/understanding-inline-box-model/
+
+Additionally, setting a width  or height  on an inline element also has no effect. The width and height is auto to take as much space as required by the content.
+
+Logically, this makes sense since you don't want your inline elements to destroy your multi-line text-layout. If you want to do so or need both block-level and inline behavior, you can set display: inline-block  to merge behaviors.
+
+Some example elements are: <a> , <span> , <img> 
