@@ -5,16 +5,52 @@
 
 ![Selectors 2](readme_images/selectors2.png)
 
-# Cascading style sheets & Specify
+## Cascading style sheets & Specify
 ![Cascading style](readme_images/cascading_stylesheets.png)
 
-# Combinators
+## Combinators
 ![Combinators](readme_images/combinators1.png)
 ![Combinators](readme_images/adjacent.png)
 ![Combinators](readme_images/general.png)
 ![Combinators](readme_images/child.png)
 ![Combinators](readme_images/descendant.png)
 
-# Selectors, properties, values
+## Selectors, properties, values
 ![Selectors, properties, values](readme_images/selectorsDescription1.png)
 ![Selectors, properties, values](readme_images/selectorsDescription2.png)
+
+## Box model / Layers
+![Box model](readme_images/layers.png)
+
+## Margin Collapsing
+When working with margins, you can get unexpected results. 
+
+* Why are two adjacent elements sharing one margin even though each element has its own one?
+* Why does a parent element (e.g. ```<section>```  as in the videos) suddenly take on the margin of the child element (e.g. ```<h1>``` )?
+
+It's always related to margin collapsing. You can dive deeply into it with the help of the following awesome article: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
+There, three base cases are described:
+
+1. Adjacent siblings which both have margins
+2. A parent which holds one or more child elements where the first and/ or last (or the only) child has margins
+3. An element without content, padding, border and height
+
+Let's explore these cases:
+
+1. Adjacent Siblings
+
+    In this case, the first element might have a margin of 10px  (on all sides let's say) and the second one has 5px  (or 20px  - the values don't matter).
+
+    CSS will collapse the margins and only add the bigger one between the elements. So if we got margins of 10px  and 5px , a 10px  margin would be added between the elements?
+
+2. A parent with children that have a margin
+
+    To be precise, the first and/ or last or the only child has to have margins (top and/ or bottom). In that case, the parent elements margin will collapse with the child element(s)' margins. Again, the bigger margin wins and will be applied to the parent element.
+
+    If the parent element has padding, inline content (other than the child elements) or a border, this behavior should not occur, the child margin will instead be added to the content of the wrapping parent element.
+
+3. An empty element with margins
+
+    This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into one single margin. Again, the bigger one wins.
+
