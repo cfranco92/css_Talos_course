@@ -132,3 +132,7 @@ ___
 ---
 ## Properties worth to remember
 ![Properties worth to remember](readme_images/properties.png)
+
+---
+## Classes or ids
+![Classes or ids](readme_images/classesorids.png)
