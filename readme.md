@@ -136,3 +136,7 @@ ___
 ---
 ## Classes or ids
 ![Classes or ids](readme_images/classesorids.png)
+
+---
+## Not using important
+![Not using importan](readme_images/important.png)
