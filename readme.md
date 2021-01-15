@@ -113,7 +113,7 @@ Here's the executive summary:
 
 Block-level elements are rendered as a block and hence take up all the available horizontal space. You can set margin-top and margin-bottom and two block-level elements will render in two different lines.
 
-Some examples are: <div> , <section> , <article> , <nav>  but also <h1> , <h2>  etc and <p> .
+Some examples are: ```<div> , <section> , <article> , <nav>  but also <h1> , <h2>  etc and <p> ```.
 
 Inline elements on the other hand only take up the space they require to fit their content in. Hence two inline-elements will fit into the same line (as long as the combined content doesn't take up the entire space in which case a line break would be added).
 
@@ -123,4 +123,6 @@ Additionally, setting a width  or height  on an inline element also has no effec
 
 Logically, this makes sense since you don't want your inline elements to destroy your multi-line text-layout. If you want to do so or need both block-level and inline behavior, you can set display: inline-block  to merge behaviors.
 
-Some example elements are: <a> , <span> , <img> 
+Some example elements are: ```<a> , <span> , <img> ```
+
+---
