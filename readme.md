@@ -125,4 +125,10 @@ Logically, this makes sense since you don't want your inline elements to destroy
 
 Some example elements are: ```<a> , <span> , <img> ```
 
+___
+## Pseudo clases & Pseudo elements
+![Pseudo](readme_images/pseudo.png)
+
 ---
+## Properties worth to remember
+![Properties worth to remember](readme_images/properties.png)
