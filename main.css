@@ -56,16 +56,6 @@ body {
     color: #858585;
 }
 
-.plan__features {
-   list-style: none; 
-   margin: 0;
-   padding: 0;
-}
-
-.plan__feature {
-    margin: 8px 0;
-}
-
 .plan--highlighted .plan__title {
     color: white;
 }
@@ -73,6 +63,33 @@ body {
 .plan--highlighted .plan__price {
     color: #0e4f1f;
 }
+
+.plan__features {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .plan__feature {
+     margin: 8px 0;
+ }
+
+ .button {
+     background: #0e4f1f;
+     color: white;
+     font: inherit;
+     border: 1.5px solid #0e4f1f;
+     padding: 8px;
+     border-radius: 8px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .button:hover,
+ .button:active {
+     background: white;
+     color: #0e4f1f;
+ }
 
 /* h1 {
     font-family: sans-serif;
