@@ -140,3 +140,11 @@ ___
 ---
 ## Not using important
 ![Not using importan](readme_images/important.png)
+
+---
+## Positioning Elements
+![Positioning Elements](readme_images/positioningelements.png)
+
+![Changing the position](readme_images/changingposition.png)
+Viewport: Simply is the visible part/ area of your web page. You could translate it with "your browser window".
+
