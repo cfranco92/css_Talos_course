@@ -148,3 +148,6 @@ ___
 ![Changing the position](readme_images/changingposition.png)
 Viewport: Simply is the visible part/ area of your web page. You could translate it with "your browser window".
 
+---
+## The background shorthand - Theory
+![Background property](readme_images/backgroundproperty.png)
