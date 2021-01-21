@@ -167,3 +167,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 ![Pixels, Percentages & More](readme_images/pixels.png)
 
 ![Questions](readme_images/pixelsfirstquestion.png)
+
+![Question 2](readme_images/question2.png)
+
+![Question 3](readme_images/question3.png)
