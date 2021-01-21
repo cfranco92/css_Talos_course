@@ -151,3 +151,6 @@ Viewport: Simply is the visible part/ area of your web page. You could translate
 ---
 ## The background shorthand - Theory
 ![Background property](readme_images/backgroundproperty.png)
+
+---
+## Using multiple background
