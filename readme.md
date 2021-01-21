@@ -154,3 +154,10 @@ Viewport: Simply is the visible part/ area of your web page. You could translate
 
 ---
 ## Using multiple background
+![Multiple background](assets/images/multiplebackground.png)
+
+---
+## Filters
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter 
+
+![Filters](assets/images/filters.png)
