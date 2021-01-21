@@ -161,3 +161,9 @@ Viewport: Simply is the visible part/ area of your web page. You could translate
 https://developer.mozilla.org/en-US/docs/Web/CSS/filter 
 
 ![Filters](assets/images/filters.png)
+
+---
+## Pixels, Percentages & More
+![Pixels, Percentages & More](readme_images/pixels.png)
+
+![Questions](readme_images/pixelsfirstquestion.png)
