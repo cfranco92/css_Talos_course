@@ -171,3 +171,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 ![Question 2](readme_images/question2.png)
 
 ![Question 3](readme_images/question3.png)
+
+---
+## Rules to remember
+![Rules](readme_images/rules.png)
